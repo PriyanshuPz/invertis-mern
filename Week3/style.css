@@ -47,3 +47,23 @@ nav > ul > li > a:hover {
     padding-top: 10px;
     padding-left: 10px;
 }
+
+.content {
+    padding: 10px;
+    align-items: start;
+    gap: 10px;
+
+}
+
+
+.sub-list {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sub-head {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+    padding-top: 10px;
+}
