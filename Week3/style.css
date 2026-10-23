@@ -67,3 +67,25 @@ nav > ul > li > a:hover {
     font-size: 18px;
     padding-top: 10px;
 }
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
