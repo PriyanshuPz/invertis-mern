@@ -1,10 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    padding: 10px;
 }
 nav > ul {
     display: flex;
@@ -24,4 +28,22 @@ nav > ul > li, nav > ul > li > a {
 nav > ul > li > a:hover {
     color: #007bff;
     text-decoration: underline;
+}
+
+
+
+.profile-img {
+    width: 100px;
+}
+
+.intro {
+    display: flex;
+    padding: 10px;
+    align-items: start;
+    gap: 10px;
+}
+
+.intro-text {
+    padding-top: 10px;
+    padding-left: 10px;
 }
