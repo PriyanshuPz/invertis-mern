@@ -23,6 +23,61 @@
         <label for="student-password">Password:</label><br />
         <input type="password" id="student-password" name="studentPassword" />
       </p>
+
+      <p>
+        <label for="event-date">Event Date:</label><br />
+        <input type="date" id="event-date" name="eventDate" />
+      </p>
+
+      <p>
+        <label for="student-phone">Phone:</label><br />
+        <input type="tel" id="student-phone" name="studentPhone" />
+      </p>
+
+      <fieldset>
+        <legend>Preferred Session:</legend>
+        <label>
+          <input type="radio" name="session" value="morning" />
+          Morning
+        </label>
+        <label>
+          <input type="radio" name="session" value="afternoon" />
+          Afternoon
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Interests:</legend>
+        <label>
+          <input type="checkbox" name="interests" value="web-development" />
+          Web Development
+        </label>
+        <label>
+          <input type="checkbox" name="interests" value="robotics" />
+          Robotics
+        </label>
+        <label>
+          <input type="checkbox" name="interests" value="cybersecurity" />
+          Cybersecurity
+        </label>
+      </fieldset>
+
+      <p>
+        <label for="event-selection">Choose an Event:</label><br />
+        <select id="event-selection" name="eventSelection">
+          <option value="">Select an event</option>
+          <option value="coding-workshop">Coding Workshop</option>
+          <option value="robotics-showcase">Robotics Showcase</option>
+          <option value="hackathon">Hackathon</option>
+        </select>
+      </p>
+
+      <p>
+        <label for="student-message">Message:</label><br />
+        <textarea id="student-message" name="studentMessage" rows="5" cols="30"></textarea>
+      </p>
+
+      <button type="submit">Submit Registration</button>
     </form>
   </body>
 </html>
