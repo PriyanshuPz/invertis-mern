@@ -8,6 +8,40 @@
   <body>
     <h1>Tech Club Registration</h1>
 
+    <h2>Upcoming Events</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Event</th>
+          <th>Date</th>
+          <th>Location</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Coding Workshop</td>
+          <td>Nov 10, 2026</td>
+          <td>Computer Lab</td>
+        </tr>
+        <tr>
+          <td>Robotics Showcase</td>
+          <td>Nov 17, 2026</td>
+          <td>Innovation Hall</td>
+        </tr>
+        <tr>
+          <td>Hackathon</td>
+          <td>Nov 25, 2026</td>
+          <td>Auditorium</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">More exciting events coming soon!</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <h2>Registration Form</h2>
     <form>
       <p>
         <label for="student-name">Name:</label><br />
@@ -74,7 +108,12 @@
 
       <p>
         <label for="student-message">Message:</label><br />
-        <textarea id="student-message" name="studentMessage" rows="5" cols="30"></textarea>
+        <textarea
+          id="student-message"
+          name="studentMessage"
+          rows="5"
+          cols="30"
+        ></textarea>
       </p>
 
       <button type="submit">Submit Registration</button>
