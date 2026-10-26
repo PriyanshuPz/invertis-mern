@@ -1,24 +1,33 @@
+:root {
+  --color-primary: #1d4ed8;
+  --color-text: #1f2937;
+  --color-surface: white;
+  --color-on-primary: white;
+  --space-md: 20px;
+  --space-lg: 24px;
+}
+
 * {
   box-sizing: border-box;
 }
 
 h1 {
-  color: #1d4ed8;
+  color: var(--color-primary);
 }
 
 .card {
-  padding: 20px;
-  background-color: white;
+  padding: var(--space-md);
+  background-color: var(--color-surface);
 }
 
 #hero {
-  padding: 24px;
-  color: white;
-  background-color: #1d4ed8;
+  padding: var(--space-lg);
+  color: var(--color-on-primary);
+  background-color: var(--color-primary);
 }
 
 body {
-  color: #1f2937;
+  color: var(--color-text);
   font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   line-height: 1.6;
@@ -30,7 +39,7 @@ h1 {
 }
 
 h2 {
-  color: #1d4ed8;
+  color: var(--color-primary);
   font-size: 1.75rem;
   line-height: 1.3;
 }
