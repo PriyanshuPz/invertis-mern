@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Tech Club events and registration form." />
+    <meta name="keywords" content="Tech Club, events, registration" />
+    <meta name="author" content="Tech Club" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tech Club - Home</title>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="register.html">Register</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <h1>Tech Club</h1>
+    <p>Welcome to our college Tech Club. Learn, create, and take part in our events.</p>
+
+    <h2>Upcoming Events</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Event</th>
+          <th>Date</th>
+          <th>Location</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Coding Workshop</td>
+          <td>November 10, 2026</td>
+          <td>Computer Lab</td>
+        </tr>
+        <tr>
+          <td>Robotics Showcase</td>
+          <td>November 17, 2026</td>
+          <td>Innovation Hall</td>
+        </tr>
+        <tr>
+          <td>Hackathon</td>
+          <td>November 25, 2026</td>
+          <td>Auditorium</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">More events will be announced soon.</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <h2>Registration Form</h2>
+    <form>
+      <p>
+        <label for="student-name">Name:</label><br />
+        <input type="text" id="student-name" name="studentName" />
+      </p>
+      <p>
+        <label for="student-email">Email:</label><br />
+        <input type="email" id="student-email" name="studentEmail" />
+      </p>
+      <p>
+        <label for="student-password">Password:</label><br />
+        <input type="password" id="student-password" name="studentPassword" />
+      </p>
+      <p>
+        <label for="event-date">Event Date:</label><br />
+        <input type="date" id="event-date" name="eventDate" />
+      </p>
+      <p>
+        <label for="student-phone">Phone:</label><br />
+        <input type="tel" id="student-phone" name="studentPhone" />
+      </p>
+
+      <fieldset>
+        <legend>Preferred Session:</legend>
+        <label><input type="radio" name="session" value="morning" /> Morning</label>
+        <label><input type="radio" name="session" value="afternoon" /> Afternoon</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Interests:</legend>
+        <label><input type="checkbox" name="interests" value="coding" /> Coding</label>
+        <label><input type="checkbox" name="interests" value="robotics" /> Robotics</label>
+        <label><input type="checkbox" name="interests" value="design" /> Design</label>
+      </fieldset>
+
+      <p>
+        <label for="event-selection">Choose an Event:</label><br />
+        <select id="event-selection" name="eventSelection">
+          <option value="">Select an event</option>
+          <option value="coding-workshop">Coding Workshop</option>
+          <option value="robotics-showcase">Robotics Showcase</option>
+          <option value="hackathon">Hackathon</option>
+        </select>
+      </p>
+      <p>
+        <label for="student-message">Message:</label><br />
+        <textarea id="student-message" name="studentMessage" rows="5"></textarea>
+      </p>
+      <button type="submit">Submit Registration</button>
+    </form>
+  </body>
+</html>
