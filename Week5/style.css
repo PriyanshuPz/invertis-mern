@@ -1,6 +1,9 @@
 :root {
+  /* Blue creates a focused, energetic theme for a technology club. */
   --color-primary: #1d4ed8;
+  /* Dark text keeps the content readable against light backgrounds. */
   --color-text: #1f2937;
+  /* White surfaces provide contrast and make each content area feel clear. */
   --color-surface: white;
   --color-on-primary: white;
   --space-md: 20px;
