@@ -1,3 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #1d4ed8;
+}
+
+.card {
+  padding: 20px;
+  background-color: white;
+}
+
+#hero {
+  padding: 24px;
+  color: white;
+  background-color: #1d4ed8;
+}
+
 body {
   font-family: Arial, sans-serif;
 }
