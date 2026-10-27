@@ -108,6 +108,22 @@ body {
   background-color: white;
 }
 
+@media (min-width: 1024px) {
+  .hero {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 4rem;
+  }
+
+  .hero-text {
+    text-align: left;
+  }
+
+  .features {
+    padding: 3rem 4rem;
+  }
+}
+
 .course-section {
   padding: 1.875rem;
 }
