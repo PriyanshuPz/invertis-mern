@@ -108,6 +108,22 @@ body {
   background-color: white;
 }
 
+@media (min-width: 768px) {
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.25rem 3rem;
+  }
+
+  .hero {
+    padding: 3rem;
+  }
+
+  .feature-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (min-width: 1024px) {
   .hero {
     grid-template-columns: 1fr 1fr;
