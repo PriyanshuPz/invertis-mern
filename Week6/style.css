@@ -80,3 +80,22 @@ body {
   font-size: 30px;
   cursor: pointer;
 }
+
+.add-button:hover {
+  background-color: #991b1b;
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 12px;
+    padding: 12px;
+  }
+
+  .top-bar {
+    margin: -12px -12px 20px;
+  }
+
+  .profile-card {
+    width: 100%;
+  }
+}
