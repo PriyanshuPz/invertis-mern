@@ -80,6 +80,34 @@ body {
   border-radius: 0.75rem;
 }
 
+.hero,
+.features {
+  display: grid;
+}
+
+.hero {
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 2rem 1rem;
+}
+
+.hero-text {
+  text-align: center;
+}
+
+.feature-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.feature-list article {
+  padding: 1rem;
+  border: 1px solid #bfdbfe;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+
 .course-section {
   padding: 1.875rem;
 }
