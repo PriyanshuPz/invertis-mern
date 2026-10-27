@@ -43,6 +43,29 @@ body {
   min-height: 400px;
 }
 
+.stat-boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.stat-box {
+  padding: 15px;
+  border: 1px solid #bfdbfe;
+  background-color: #eff6ff;
+}
+
+.stat-box h3,
+.stat-box p {
+  margin: 0;
+}
+
+.stat-box p {
+  margin-top: 8px;
+  color: #1d4ed8;
+}
+
 .footer {
   grid-column: 1 / -1;
   text-align: center;
