@@ -64,9 +64,16 @@ body {
 }
 
 .stat-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
   padding: 15px;
   border: 1px solid #bfdbfe;
   background-color: #eff6ff;
+}
+
+.stat-icon {
+  font-size: 24px;
 }
 
 .stat-box h3,
