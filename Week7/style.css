@@ -68,3 +68,25 @@ body {
   background-color: #2563eb;
   text-decoration: none;
 }
+
+.course-section {
+  padding: 30px;
+}
+
+.course-section h2 {
+  text-align: center;
+}
+
+.course-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.course-card {
+  flex: 1 1 200px;
+  padding: 20px;
+  border: 1px solid #bfdbfe;
+  border-radius: 8px;
+  background-color: white;
+}
